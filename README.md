@@ -2,17 +2,11 @@
   <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=700&size=26&pause=1000&color=6AFFEF&center=true&vCenter=true&multiline=true&repeat=false&width=700&lines=Mens+et+manus"/>
 </p>
 
-# Hi there, I’m **Muhammed Tarık Mengüç** 👋
 
-## 🚀 About Me
-- 🎓 **3rd-year Software Engineering student** at *Fırat University*  
-- 🛠️ Building with **Laravel · Python · AWS · Docker · Kubernetes**  
 - 📊 Exploring **Data Science & Machine Learning**  
-- 💻 Currently hacking on **DeepInvest AI** and a **Mini Stock Tracking** app  
-- 🌱 Learning **php/laravel** & cloud-native patterns  
 - 🔭 *Open to internships* in **Backend · DevOps · Cloud**
 
----
+
 
 ## 🔗 Connect With Me
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/muhammed-tarık-mengüç)

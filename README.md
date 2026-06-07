@@ -1,7 +1,7 @@
 <div align="center">
 
-<!-- Matrix Digital Rain Banner -->
-<img src="cyber_matrix.svg" width="100%" alt="Matrix Banner"/>
+<!-- Animated Banner -->
+<img src="neural_network.svg" width="100%" alt="Neural Network Animation"/>
 
 <!-- Typing SVG -->
 <a href="https://git.io/typing-svg">

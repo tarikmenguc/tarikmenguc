@@ -1,10 +1,7 @@
 <div align="center">
 
-<!-- Massive Hypnotic AI Core Animation -->
-<img src="ai_core.svg" width="100%" alt="Massive AI Core Animation"/>
-
-<!-- Animated Banner -->
-<img src="neural_network.svg" width="100%" alt="Neural Network Animation"/>
+<!-- Matrix Digital Rain Banner -->
+<img src="matrix_banner.svg" width="100%" alt="Matrix Banner"/>
 
 <!-- Typing SVG -->
 <a href="https://git.io/typing-svg">

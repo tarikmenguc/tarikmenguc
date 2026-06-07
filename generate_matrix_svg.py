@@ -33,5 +33,5 @@ svg += '''  </g>
   <text x="500" y="175" class="subtitle">AI ENGINEER | WAKE UP NEO...</text>
 </svg>'''
 
-with open('c:/Users/tarik/Desktop/tarikmenguc-main/matrix_banner.svg', 'w', encoding='utf-8') as f:
+with open('c:/Users/tarik/Desktop/tarikmenguc-main/cyber_matrix.svg', 'w', encoding='utf-8') as f:
     f.write(svg)

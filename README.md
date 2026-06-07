@@ -1,11 +1,11 @@
 <div align="center">
 
 <!-- Animated Banner -->
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=180&section=header&text=Muhammed%20Tar%C4%B1k%20Meng%C3%BC%C3%A7&fontSize=42&fontColor=fff&animation=twinkling&fontAlignY=32&desc=Data%20Science%20%7C%20Backend%20%7C%20Cloud&descAlignY=55&descSize=18" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=000000,0A0A0A,1A1A2E,16213E,0F3460,E94560&height=220&section=header&text=Muhammed%20Tar%C4%B1k%20Meng%C3%BC%C3%A7&fontSize=42&fontColor=E94560&animation=twinkling&fontAlignY=32&desc=AI%20Engineer%20%7C%20Data%20Scientist%20%7C%20Neural%20Architect&descAlignY=55&descSize=18" width="100%"/>
 
 <!-- Typing SVG -->
 <a href="https://git.io/typing-svg">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=3000&pause=800&color=6AFFEF&center=true&vCenter=true&multiline=false&repeat=true&width=600&lines=Mens+et+manus+%F0%9F%A7%A0;Passionate+about+Data+%26+AI+%F0%9F%A4%96;Backend+%7C+DevOps+%7C+Cloud+Explorer+%E2%98%81%EF%B8%8F;Always+building%2C+always+learning+%F0%9F%9A%80" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=3000&pause=800&color=E94560&center=true&vCenter=true&multiline=false&repeat=true&width=700&lines=Integrating+AI+into+Products+%F0%9F%9A%80;Building+RAG+%26+Fine-Tuning+LLMs+%F0%9F%A7%A0;Computer+Vision+%26+Generative+AI+%F0%9F%91%81%EF%B8%8F;AI+Engineer+%26+Data+Scientist+%F0%9F%A4%96;Mens+et+manus" alt="Typing SVG" />
 </a>
 
 <br/>
@@ -14,69 +14,67 @@
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/muhammed-tarık-mengüç)
 [![Kaggle](https://img.shields.io/badge/Kaggle-20BEFF?style=for-the-badge&logo=kaggle&logoColor=white)](https://www.kaggle.com/mtarkmeng)
 [![YouTube](https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white)](https://www.youtube.com/@m.tarkmenguc4631)
-[![Profile Views](https://komarev.com/ghpvc/?username=tarikmenguc&label=Profile+Views&color=6AFFEF&style=for-the-badge)](https://github.com/tarikmenguc)
+[![Profile Views](https://komarev.com/ghpvc/?username=tarikmenguc&label=Profile+Views&color=E94560&style=for-the-badge)](https://github.com/tarikmenguc)
 
 </div>
 
 ---
 
-## 🙋‍♂️ About Me
+## 🌌 About Me
 
 ```python
-class tarikmenguc:
-    name       = "Muhammed Tarık Mengüç"
-    location   = "Turkey 🇹🇷"
-    interests  = ["Data Science", "Machine Learning", "Backend Dev", "Cloud & DevOps"]
-    open_to    = ["Internships", "Collaborations", "Open Source"]
-    motto      = "Mens et manus — Mind and hand."
-
-    def say_hi(self):
-        print("Thanks for visiting my profile! Let's build something great 🚀")
+class TarikMenguc(AIEngineer):
+    def __init__(self):
+        self.name       = "Muhammed Tarık Mengüç"
+        self.location   = "Turkey 🇹🇷"
+        self.mission    = "Helping companies & products seamlessly integrate AI"
+        self.focus      = ["LLMs", "RAG", "Fine-Tuning", "Computer Vision"]
+        self.open_to    = ["AI Integration", "Consulting", "Innovative Projects"]
+        self.motto      = "Decoding intelligence to build the future."
+        
+    def execute_mission(self):
+        return "Empowering businesses through scalable AI solutions & smart architectures 🚀"
 ```
 
 ---
 
-## 🛠️ Tech Stack & Tools
+## 🧠 AI Stack & Technologies
 
 <div align="center">
 
-### 💻 Languages & Frameworks
+### 🤖 Artificial Intelligence & Data
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![PHP](https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white)
-![Django](https://img.shields.io/badge/Django-092E20?style=for-the-badge&logo=django&logoColor=white)
-![Laravel](https://img.shields.io/badge/Laravel-FF2D20?style=for-the-badge&logo=laravel&logoColor=white)
-
-### 🗄️ Databases
-![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white)
-
-### ☁️ DevOps & Cloud
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
-![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white)
-![AWS](https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazon-aws&logoColor=white)
-![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
-![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
-
-### 🤖 Data & AI
+![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white)
+![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white)
+![Hugging Face](https://img.shields.io/badge/Hugging%20Face-FFD21E?style=for-the-badge&logo=huggingface&logoColor=black)
+![LangChain](https://img.shields.io/badge/LangChain-121212?style=for-the-badge&logo=chainlink&logoColor=white)
+![OpenAI](https://img.shields.io/badge/OpenAI-412991?style=for-the-badge&logo=openai&logoColor=white)
 ![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white)
 ![NumPy](https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white)
 ![Scikit-Learn](https://img.shields.io/badge/Scikit--Learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white)
-![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white)
+
+### ☁️ DevOps, Cloud & Backend
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
+![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white)
+![AWS](https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazon-aws&logoColor=white)
+![Django](https://img.shields.io/badge/Django-092E20?style=for-the-badge&logo=django&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white)
+![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
 
 </div>
 
 ---
 
-## 📊 GitHub Stats
+## 📊 GitHub Analytics
 
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=tarikmenguc&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=6AFFEF&icon_color=6AFFEF&text_color=ffffff&rank_icon=github" height="180"/>
+  <img src="https://github-readme-stats.vercel.app/api?username=tarikmenguc&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=E94560&icon_color=E94560&text_color=A8B2D1&rank_icon=github" height="180"/>
   &nbsp;
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=tarikmenguc&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=6AFFEF&text_color=ffffff" height="180"/>
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=tarikmenguc&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=E94560&text_color=A8B2D1" height="180"/>
 </div>
 
 <div align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com?user=tarikmenguc&theme=tokyonight&hide_border=true&background=0D1117&ring=6AFFEF&fire=FF6B6B&currStreakLabel=6AFFEF" width="60%"/>
+  <img src="https://github-readme-streak-stats.herokuapp.com?user=tarikmenguc&theme=tokyonight&hide_border=true&background=0D1117&ring=E94560&fire=E94560&currStreakLabel=E94560" width="60%"/>
 </div>
 
 <div align="center">
@@ -85,18 +83,18 @@ class tarikmenguc:
 
 ---
 
-## 📈 Contribution Graph
+## 📈 Contribution Matrix
 
 <div align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=tarikmenguc&theme=tokyo-night&hide_border=true&bg_color=0D1117&color=6AFFEF&line=6AFFEF&point=ffffff" width="100%"/>
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=tarikmenguc&theme=tokyo-night&hide_border=true&bg_color=0D1117&color=E94560&line=E94560&point=ffffff" width="100%"/>
 </div>
 
 ---
 
 <div align="center">
 
-### 💬 *"The best way to predict the future is to create it."*
+### 🔮 *"The future belongs to those who build the minds of tomorrow."*
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=100&section=footer" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=000000,0A0A0A,1A1A2E,16213E,0F3460,E94560&height=100&section=footer" width="100%"/>
 
 </div>

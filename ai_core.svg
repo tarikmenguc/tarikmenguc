@@ -1,0 +1,167 @@
+<svg width="100%" height="450" viewBox="0 0 1000 450" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <style>
+      .bg { fill: #000000; }
+      .ring { fill: none; stroke-width: 1.5; transform-origin: 500px 225px; opacity: 0.8; }
+      .r1 { animation: spin 12s linear infinite; stroke: #66FCF1; stroke-dasharray: 5 15; }
+      .r2 { animation: spin-rev 18s linear infinite; stroke: #A8B2D1; stroke-dasharray: 20 10; }
+      .r3 { animation: spin 24s linear infinite; stroke: #E94560; stroke-dasharray: 40 30; }
+      .r4 { animation: spin-rev 30s linear infinite; stroke: #0F3460; stroke-width: 3; stroke-dasharray: 100 50; }
+      @keyframes spin { 100% { transform: rotate(360deg); } }
+      @keyframes spin-rev { 100% { transform: rotate(-360deg); } }
+      .core { fill: #E94560; animation: pulse 2s infinite alternate; filter: drop-shadow(0 0 20px #E94560); }
+      @keyframes pulse { 0% { r: 15; opacity: 0.7; } 100% { r: 35; opacity: 1; filter: drop-shadow(0 0 35px #E94560); } }
+      .data { fill: #66FCF1; font-family: 'Courier New', monospace; font-size: 14px; opacity: 0; animation: flash 6s infinite; }
+      @keyframes flash { 0%, 100% { opacity: 0; } 50% { opacity: 0.6; } }
+      .hex { fill: none; stroke: #E94560; stroke-width: 1.5; opacity: 0.3; transform-origin: 500px 225px; animation: scaleUp 6s infinite alternate; }
+      @keyframes scaleUp { 0% { transform: scale(0.7) rotate(0deg); opacity: 0.1; } 100% { transform: scale(1.3) rotate(30deg); opacity: 0.5; } }
+    </style>
+  </defs>
+  <rect width="100%" height="100%" class="bg" rx="15"/>
+  <circle cx="500" cy="225" r="60" class="ring r4"/>
+  <circle cx="500" cy="225" r="75" class="ring r3"/>
+  <circle cx="500" cy="225" r="90" class="ring r1"/>
+  <circle cx="500" cy="225" r="105" class="ring r3"/>
+  <circle cx="500" cy="225" r="120" class="ring r1"/>
+  <circle cx="500" cy="225" r="135" class="ring r2"/>
+  <circle cx="500" cy="225" r="150" class="ring r2"/>
+  <circle cx="500" cy="225" r="165" class="ring r4"/>
+  <circle cx="500" cy="225" r="180" class="ring r2"/>
+  <circle cx="500" cy="225" r="195" class="ring r1"/>
+  <circle cx="500" cy="225" r="210" class="ring r4"/>
+  <circle cx="500" cy="225" r="225" class="ring r2"/>
+  <circle cx="500" cy="225" r="240" class="ring r4"/>
+  <circle cx="500" cy="225" r="255" class="ring r1"/>
+  <circle cx="500" cy="225" r="270" class="ring r2"/>
+  <circle cx="500" cy="225" r="285" class="ring r1"/>
+  <circle cx="500" cy="225" r="300" class="ring r2"/>
+  <circle cx="500" cy="225" r="315" class="ring r2"/>
+  <circle cx="500" cy="225" r="330" class="ring r2"/>
+  <circle cx="500" cy="225" r="345" class="ring r3"/>
+  <circle cx="500" cy="225" r="360" class="ring r2"/>
+  <text x="701" y="265" class="data" style="animation-delay: 5.7765495708839s; animation-duration: 5.3925534153167725s;">AINN01</text>
+  <text x="425" y="200" class="data" style="animation-delay: 0.8767815462570536s; animation-duration: 9.172480338897955s;">AIDL1##</text>
+  <text x="245" y="191" class="data" style="animation-delay: 5.48409184057275s; animation-duration: 8.732091071910288s;">DL##AINN</text>
+  <text x="872" y="192" class="data" style="animation-delay: 4.839908210130727s; animation-duration: 9.125300831653439s;">##1DL##</text>
+  <text x="449" y="332" class="data" style="animation-delay: 5.063014249530358s; animation-duration: 4.352471361527442s;">NNNN10</text>
+  <text x="318" y="317" class="data" style="animation-delay: 5.583691378193147s; animation-duration: 6.288391019973149s;">DL0##AI</text>
+  <text x="901" y="251" class="data" style="animation-delay: 0.08039497263573625s; animation-duration: 5.9869875453494235s;">NN0##DL</text>
+  <text x="390" y="336" class="data" style="animation-delay: 5.943447798150318s; animation-duration: 8.663570906414845s;">NNDL1NN</text>
+  <text x="572" y="137" class="data" style="animation-delay: 3.673244726919041s; animation-duration: 4.655826763890974s;">0##NN1</text>
+  <text x="541" y="265" class="data" style="animation-delay: 0.5143316606237087s; animation-duration: 8.70856014468513s;">DL##0AI</text>
+  <text x="515" y="336" class="data" style="animation-delay: 4.32587007820025s; animation-duration: 4.7933470641457445s;">DLAIDLAI</text>
+  <text x="711" y="364" class="data" style="animation-delay: 5.7098846572716155s; animation-duration: 7.682304405245283s;">01##DL</text>
+  <text x="640" y="175" class="data" style="animation-delay: 1.108788450733093s; animation-duration: 7.463247182782398s;">DL##AI1</text>
+  <text x="795" y="216" class="data" style="animation-delay: 5.623787850157314s; animation-duration: 4.809342002959704s;">10DLAI</text>
+  <text x="534" y="144" class="data" style="animation-delay: 2.5139980848756203s; animation-duration: 7.758041291995381s;">##AIDLAI</text>
+  <text x="84" y="286" class="data" style="animation-delay: 3.600522411561352s; animation-duration: 5.693094131818385s;">DL1DL##</text>
+  <text x="823" y="68" class="data" style="animation-delay: 5.855290229413181s; animation-duration: 9.698222275619084s;">0NNDLAI</text>
+  <text x="303" y="190" class="data" style="animation-delay: 2.9260360038061686s; animation-duration: 6.477807793981936s;">NNDL##AI</text>
+  <text x="491" y="329" class="data" style="animation-delay: 1.105187964732744s; animation-duration: 8.427981608374344s;">##DL00</text>
+  <text x="785" y="186" class="data" style="animation-delay: 3.7935451002830733s; animation-duration: 6.8947876808847735s;">0AIAI##</text>
+  <text x="505" y="403" class="data" style="animation-delay: 1.7348482870607094s; animation-duration: 6.454756744277054s;">AI##1##</text>
+  <text x="812" y="291" class="data" style="animation-delay: 5.162196659555933s; animation-duration: 6.879768683231793s;">DL0##AI</text>
+  <text x="904" y="214" class="data" style="animation-delay: 1.281923708979196s; animation-duration: 7.433788253649638s;">AIDLNN0</text>
+  <text x="937" y="414" class="data" style="animation-delay: 0.34480269439426237s; animation-duration: 8.911946268317719s;">##DL##NN</text>
+  <text x="264" y="205" class="data" style="animation-delay: 2.332719344655062s; animation-duration: 9.132974102703404s;">AINN10</text>
+  <text x="672" y="34" class="data" style="animation-delay: 2.646231796306227s; animation-duration: 5.200008936254406s;">AI1DL1</text>
+  <text x="467" y="185" class="data" style="animation-delay: 3.7976874230371203s; animation-duration: 9.774729638577703s;">010AI</text>
+  <text x="532" y="267" class="data" style="animation-delay: 3.492140891820379s; animation-duration: 9.755675232033994s;">NN##NN1</text>
+  <text x="604" y="287" class="data" style="animation-delay: 3.9212925875355946s; animation-duration: 4.630741809060183s;">##NNNNDL</text>
+  <text x="615" y="175" class="data" style="animation-delay: 0.7971105123294597s; animation-duration: 9.25686580621212s;">DLNN##NN</text>
+  <text x="120" y="97" class="data" style="animation-delay: 2.651059214521924s; animation-duration: 8.56557733859735s;">AI0NNNN</text>
+  <text x="544" y="167" class="data" style="animation-delay: 2.3325841080531955s; animation-duration: 8.47233130563139s;">DLDLNNDL</text>
+  <text x="388" y="31" class="data" style="animation-delay: 1.8659947953250613s; animation-duration: 7.225202971311557s;">##DLAI0</text>
+  <text x="958" y="149" class="data" style="animation-delay: 4.644299438178077s; animation-duration: 5.4788766314206265s;">DL010</text>
+  <text x="345" y="418" class="data" style="animation-delay: 0.23068109680743598s; animation-duration: 7.1325625323810575s;">DLNN####</text>
+  <text x="252" y="64" class="data" style="animation-delay: 4.344618438841385s; animation-duration: 6.293547496609284s;">DLAINNAI</text>
+  <text x="871" y="145" class="data" style="animation-delay: 5.2972116351610055s; animation-duration: 8.095420708950224s;">0NNDL0</text>
+  <text x="379" y="115" class="data" style="animation-delay: 1.1873928914584377s; animation-duration: 5.772818299922699s;">##AINN##</text>
+  <text x="53" y="69" class="data" style="animation-delay: 5.770947567856369s; animation-duration: 7.013065350550643s;">10##DL</text>
+  <text x="231" y="368" class="data" style="animation-delay: 4.36551733947654s; animation-duration: 4.810658944461842s;">1AI##0</text>
+  <text x="313" y="49" class="data" style="animation-delay: 2.387143753863298s; animation-duration: 7.1291375122949425s;">0DLDLAI</text>
+  <text x="953" y="128" class="data" style="animation-delay: 4.897276538891009s; animation-duration: 8.455289732788003s;">1AIAIAI</text>
+  <text x="380" y="67" class="data" style="animation-delay: 4.927982507158788s; animation-duration: 6.590735265290013s;">10NN1</text>
+  <text x="878" y="302" class="data" style="animation-delay: 5.477175933529363s; animation-duration: 4.1033972094441635s;">00##NN</text>
+  <text x="932" y="275" class="data" style="animation-delay: 4.355584225227854s; animation-duration: 7.620121115707117s;">NN00AI</text>
+  <text x="772" y="165" class="data" style="animation-delay: 2.9745895376940252s; animation-duration: 6.355508635209493s;">100##</text>
+  <text x="692" y="214" class="data" style="animation-delay: 3.7533346377466463s; animation-duration: 6.9515765008144434s;">##AIAI##</text>
+  <text x="369" y="376" class="data" style="animation-delay: 2.664851959139773s; animation-duration: 9.135197934406715s;">0AIDL0</text>
+  <text x="610" y="287" class="data" style="animation-delay: 4.871375897008373s; animation-duration: 5.910148460486631s;">##1AI0</text>
+  <text x="656" y="68" class="data" style="animation-delay: 5.227396034336835s; animation-duration: 4.260891481878987s;">0AI10</text>
+  <text x="530" y="51" class="data" style="animation-delay: 5.192257098382431s; animation-duration: 7.88600690598394s;">11NNAI</text>
+  <text x="855" y="263" class="data" style="animation-delay: 0.3277522059062752s; animation-duration: 7.8341592410845955s;">DLNNAIDL</text>
+  <text x="450" y="191" class="data" style="animation-delay: 2.3665672003402385s; animation-duration: 9.70635265312896s;">AINNDL0</text>
+  <text x="884" y="272" class="data" style="animation-delay: 0.38618140504417764s; animation-duration: 6.601328624362005s;">0AINN1</text>
+  <text x="965" y="62" class="data" style="animation-delay: 3.940241260241168s; animation-duration: 6.8306092603590045s;">DLNNDL0</text>
+  <text x="588" y="218" class="data" style="animation-delay: 4.428719529548432s; animation-duration: 6.255499053778031s;">001AI</text>
+  <text x="580" y="414" class="data" style="animation-delay: 0.896943957076733s; animation-duration: 5.4090836337911385s;">0101</text>
+  <text x="579" y="404" class="data" style="animation-delay: 2.49225706612272s; animation-duration: 8.17979078665697s;">11AIAI</text>
+  <text x="66" y="421" class="data" style="animation-delay: 5.052496156814864s; animation-duration: 4.269995976104832s;">00AINN</text>
+  <text x="786" y="346" class="data" style="animation-delay: 1.1027410413950736s; animation-duration: 6.129856933190474s;">AI0AIAI</text>
+  <text x="843" y="287" class="data" style="animation-delay: 1.011907968589482s; animation-duration: 7.408485344661811s;">##NN##1</text>
+  <text x="519" y="40" class="data" style="animation-delay: 3.136423493820817s; animation-duration: 5.6899217140771485s;">AIAI1##</text>
+  <text x="761" y="281" class="data" style="animation-delay: 0.20011444915046206s; animation-duration: 4.095962138822781s;">NN0NN1</text>
+  <text x="95" y="130" class="data" style="animation-delay: 1.6950485551192804s; animation-duration: 9.591671589503138s;">0##0DL</text>
+  <text x="748" y="263" class="data" style="animation-delay: 0.2179656101825016s; animation-duration: 7.407222040133105s;">DL1AI1</text>
+  <text x="651" y="169" class="data" style="animation-delay: 3.4391300395375817s; animation-duration: 7.832653949806327s;">1AINNAI</text>
+  <text x="843" y="162" class="data" style="animation-delay: 2.7055130169470747s; animation-duration: 6.554231401899846s;">AIAIDLAI</text>
+  <text x="561" y="201" class="data" style="animation-delay: 5.807114735577729s; animation-duration: 5.027262815544555s;">##AIDLAI</text>
+  <text x="834" y="164" class="data" style="animation-delay: 4.808223879715015s; animation-duration: 9.950189485589569s;">0NN##0</text>
+  <text x="255" y="69" class="data" style="animation-delay: 5.598765824084731s; animation-duration: 8.222073389694792s;">##DLNNNN</text>
+  <text x="371" y="349" class="data" style="animation-delay: 3.165341610151123s; animation-duration: 8.842595668967931s;">1##0DL</text>
+  <text x="936" y="44" class="data" style="animation-delay: 5.651327699465918s; animation-duration: 7.097468560517594s;">1##10</text>
+  <text x="968" y="146" class="data" style="animation-delay: 3.4443216642478607s; animation-duration: 6.254679194102798s;">NNDL01</text>
+  <text x="818" y="76" class="data" style="animation-delay: 0.6775005986342688s; animation-duration: 7.4883534783874195s;">NN110</text>
+  <text x="130" y="267" class="data" style="animation-delay: 3.361451887375524s; animation-duration: 6.092418206886903s;">##NN0DL</text>
+  <text x="323" y="384" class="data" style="animation-delay: 4.64676890253023s; animation-duration: 7.092767184471164s;">AIDLAIAI</text>
+  <text x="305" y="185" class="data" style="animation-delay: 2.3740439574595786s; animation-duration: 8.879351090165432s;">##AIDL##</text>
+  <text x="954" y="150" class="data" style="animation-delay: 0.35828220075355843s; animation-duration: 8.934172151553716s;">##1DLNN</text>
+  <text x="67" y="93" class="data" style="animation-delay: 0.3529378336147415s; animation-duration: 4.593591426460188s;">0AINN##</text>
+  <text x="576" y="224" class="data" style="animation-delay: 2.7033194637586506s; animation-duration: 4.797966384223668s;">DLNN01</text>
+  <text x="283" y="304" class="data" style="animation-delay: 3.1488158966469544s; animation-duration: 9.215432214305286s;">0##AINN</text>
+  <text x="235" y="328" class="data" style="animation-delay: 2.5689423623458616s; animation-duration: 6.623102676320743s;">AIAIDLNN</text>
+  <text x="724" y="358" class="data" style="animation-delay: 3.1258732601222694s; animation-duration: 5.608112003053387s;">0DLDL1</text>
+  <text x="354" y="310" class="data" style="animation-delay: 5.4252207208598895s; animation-duration: 4.157583151510148s;">NN1AINN</text>
+  <text x="219" y="268" class="data" style="animation-delay: 4.4291823557240075s; animation-duration: 5.333930908156534s;">0AI11</text>
+  <text x="664" y="142" class="data" style="animation-delay: 5.924831780241648s; animation-duration: 5.53541699960351s;">0##1AI</text>
+  <text x="275" y="64" class="data" style="animation-delay: 2.281228058606479s; animation-duration: 7.184223215150446s;">101AI</text>
+  <text x="516" y="255" class="data" style="animation-delay: 0.8522437672655525s; animation-duration: 5.78743435702971s;">11##1</text>
+  <text x="972" y="378" class="data" style="animation-delay: 2.7340578241279765s; animation-duration: 4.764897420845502s;">DLAIAI##</text>
+  <text x="205" y="349" class="data" style="animation-delay: 3.4630621855495445s; animation-duration: 5.676514363496162s;">01AI0</text>
+  <text x="502" y="39" class="data" style="animation-delay: 5.366152899092784s; animation-duration: 9.060034011535198s;">0##NN1</text>
+  <text x="103" y="392" class="data" style="animation-delay: 4.256034759116919s; animation-duration: 4.468501598189999s;">0AIDL##</text>
+  <text x="114" y="199" class="data" style="animation-delay: 5.672231122458173s; animation-duration: 7.007853273477602s;">AI##AINN</text>
+  <text x="870" y="338" class="data" style="animation-delay: 2.4556111906258673s; animation-duration: 6.03318493961732s;">1NN1AI</text>
+  <text x="324" y="217" class="data" style="animation-delay: 5.962166490431633s; animation-duration: 6.385526451494292s;">AIDLDL##</text>
+  <text x="880" y="144" class="data" style="animation-delay: 0.4794389606529563s; animation-duration: 6.655725044137444s;">AINN01</text>
+  <text x="708" y="81" class="data" style="animation-delay: 3.1363539976753625s; animation-duration: 7.948578082601672s;">10##0</text>
+  <text x="529" y="219" class="data" style="animation-delay: 0.16383187160723667s; animation-duration: 5.366139373529181s;">##00AI</text>
+  <text x="444" y="110" class="data" style="animation-delay: 0.6039342821282636s; animation-duration: 9.178034340512156s;">DL##DLAI</text>
+  <text x="50" y="243" class="data" style="animation-delay: 1.1164156726483287s; animation-duration: 5.911329069319873s;">DLAI1NN</text>
+  <text x="847" y="21" class="data" style="animation-delay: 1.1321503281083187s; animation-duration: 4.4313976432074895s;">1####NN</text>
+  <text x="297" y="419" class="data" style="animation-delay: 3.2888160329943235s; animation-duration: 5.294561553924281s;">0DL0DL</text>
+  <text x="164" y="394" class="data" style="animation-delay: 3.5802210309230498s; animation-duration: 8.921019723022374s;">AI1##DL</text>
+  <text x="279" y="77" class="data" style="animation-delay: 3.8313328032969998s; animation-duration: 7.236812838363715s;">0##AI1</text>
+  <text x="611" y="170" class="data" style="animation-delay: 5.7677507953222005s; animation-duration: 5.877483047900415s;">##1DLAI</text>
+  <text x="969" y="23" class="data" style="animation-delay: 3.8395428679018697s; animation-duration: 9.792090566288909s;">0##DL1</text>
+  <text x="941" y="386" class="data" style="animation-delay: 3.1717603269170196s; animation-duration: 4.696663997538346s;">####AI0</text>
+  <text x="688" y="303" class="data" style="animation-delay: 4.737665332868793s; animation-duration: 5.25800683501465s;">##DLAI0</text>
+  <text x="498" y="76" class="data" style="animation-delay: 3.869506363503578s; animation-duration: 9.379876815122788s;">AIAI01</text>
+  <text x="537" y="384" class="data" style="animation-delay: 3.678635653900619s; animation-duration: 6.867571514935535s;">AINN##0</text>
+  <text x="124" y="421" class="data" style="animation-delay: 2.2379183883265754s; animation-duration: 8.80606875427406s;">##1DLAI</text>
+  <text x="98" y="166" class="data" style="animation-delay: 0.39229497171658845s; animation-duration: 9.795284520314432s;">1NN##DL</text>
+  <text x="531" y="53" class="data" style="animation-delay: 5.219798711444206s; animation-duration: 7.642095679994747s;">1DL##AI</text>
+  <text x="469" y="399" class="data" style="animation-delay: 2.3691173714889855s; animation-duration: 4.135271331898142s;">DL##01</text>
+  <text x="968" y="238" class="data" style="animation-delay: 5.293197718914951s; animation-duration: 5.4181387736457705s;">1DLDL1</text>
+  <text x="202" y="423" class="data" style="animation-delay: 1.9811798487360248s; animation-duration: 8.001179814582708s;">0##01</text>
+  <text x="329" y="171" class="data" style="animation-delay: 4.469960465438922s; animation-duration: 7.004915703763577s;">NNDL0AI</text>
+  <text x="153" y="212" class="data" style="animation-delay: 3.724590731799337s; animation-duration: 8.467343564069473s;">DL1AINN</text>
+  <text x="456" y="344" class="data" style="animation-delay: 2.6923752607134306s; animation-duration: 5.371424568305196s;">##1DL1</text>
+  <text x="353" y="85" class="data" style="animation-delay: 5.765453868286529s; animation-duration: 5.963723893902266s;">AI1NN0</text>
+  <polygon points="586.6025403784439,175.0 586.6025403784439,275.0 500.0,325.0 413.3974596215561,275.0 413.39745962155615,175.0 500.0,125.0" class="hex" style="animation-delay: 0s;"/>
+  <polygon points="638.5640646055102,145.0 638.5640646055102,305.0 500.0,385.0 361.4359353944898,305.0 361.43593539448983,145.0 499.99999999999994,65.0" class="hex" style="animation-delay: 1s;"/>
+  <polygon points="690.5255888325765,115.00000000000001 690.5255888325765,335.0 500.0,445.0 309.47441116742345,335.0 309.4744111674235,114.99999999999997 499.99999999999994,5.0" class="hex" style="animation-delay: 2s;"/>
+  <polygon points="742.4871130596429,85.00000000000003 742.4871130596429,365.0 500.0,505.0 257.51288694035713,365.0 257.5128869403572,84.99999999999997 499.99999999999994,-55.0" class="hex" style="animation-delay: 3s;"/>
+  <circle cx="500" cy="225" class="core"/>
+</svg>

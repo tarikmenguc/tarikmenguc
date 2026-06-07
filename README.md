@@ -1,7 +1,7 @@
 <div align="center">
 
-<!-- Huge Strange AI GIF -->
-<img src="https://media.giphy.com/media/xThuW2bKsqMB52oNRS/giphy.gif" width="100%" style="border-radius: 15px; margin-bottom: 20px;"/>
+<!-- Massive Hypnotic AI Core Animation -->
+<img src="ai_core.svg" width="100%" alt="Massive AI Core Animation"/>
 
 <!-- Animated Banner -->
 <img src="neural_network.svg" width="100%" alt="Neural Network Animation"/>

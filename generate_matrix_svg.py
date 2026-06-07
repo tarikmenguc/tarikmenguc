@@ -20,7 +20,7 @@ svg = '''<svg width="100%" height="300" viewBox="0 0 1000 300" xmlns="http://www
   <g>
 '''
 
-chars = "ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789@#$%&*" 
+chars = "ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789" 
 for x in range(10, 1000, 25):
     delay = random.uniform(0, 5)
     duration = random.uniform(4, 8)

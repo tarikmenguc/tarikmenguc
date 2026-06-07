@@ -46,7 +46,7 @@ for n in nodes:
 svg += '''
   <rect x="100" y="100" width="600" height="100" fill="#050505" opacity="0.85" rx="15"/>
   <text x="400" y="145" class="title">Muhammed Tarık Mengüç</text>
-  <text x="400" y="175" class="subtitle">AI ENGINEER | NEURAL ARCHITECT</text>
+  <text x="400" y="175" class="subtitle">AI ENGINEER</text>
 </svg>'''
 
 with open('c:/Users/tarik/Desktop/tarikmenguc-main/neural_network.svg', 'w', encoding='utf-8') as f:

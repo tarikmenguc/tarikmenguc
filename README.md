@@ -1,7 +1,7 @@
 <div align="center">
 
 <!-- Animated Banner -->
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=000000,0A0A0A,1A1A2E,16213E,0F3460,E94560&height=220&section=header&text=Muhammed%20Tar%C4%B1k%20Meng%C3%BC%C3%A7&fontSize=42&fontColor=E94560&animation=twinkling&fontAlignY=32&desc=AI%20Engineer%20%7C%20Data%20Scientist%20%7C%20Neural%20Architect&descAlignY=55&descSize=18" width="100%"/>
+<img src="neural_network.svg" width="100%" alt="Neural Network Animation"/>
 
 <!-- Typing SVG -->
 <a href="https://git.io/typing-svg">
@@ -93,7 +93,8 @@ class TarikMenguc(AIEngineer):
 
 <div align="center">
 
-### 🔮 *"The future belongs to those who build the minds of tomorrow."*
+### 🔮 *"You have power over your mind - not outside events. Realize this, and you will find strength."* 
+**— Marcus Aurelius**
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=000000,0A0A0A,1A1A2E,16213E,0F3460,E94560&height=100&section=footer" width="100%"/>
 

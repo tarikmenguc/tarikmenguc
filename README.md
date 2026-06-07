@@ -96,6 +96,6 @@ class TarikMenguc(AIEngineer):
 ### 🔮 *"You have power over your mind - not outside events. Realize this, and you will find strength."* 
 **— Marcus Aurelius**
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=000000,0A0A0A,1A1A2E,16213E,0F3460,E94560&height=100&section=footer" width="100%"/>
+<img src="data_flow.svg" width="100%" alt="Data Flow Animation"/>
 
 </div>
